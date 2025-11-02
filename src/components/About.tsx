@@ -33,7 +33,7 @@ const About = () => {
             <div className="absolute -inset-4 bg-gradient-to-r from-accent/20 to-primary/20 rounded-2xl blur-xl" />
             <img
               src={jessicaImage}
-              alt="Dra. Jessica López - Abogada"
+              alt="Abogada Jessica Melisa López Gonzáles"
               className="relative rounded-2xl shadow-2xl w-full"
             />
           </div>
@@ -44,19 +44,19 @@ const About = () => {
                 Sobre la Abogada
               </span>
               <h2 className="font-playfair font-bold text-4xl md:text-5xl text-foreground mt-2 mb-4">
-                Dra. Jessica López
+                Jessica Melisa López Gonzáles
               </h2>
               <div className="w-20 h-1 bg-accent rounded-full" />
             </div>
 
             <p className="text-lg text-foreground/80 mb-6 font-inter leading-relaxed">
-              La Dra. Jessica López es una profesional del derecho con sólida formación académica 
+              La Abogada Jessica Melisa López Gonzáles es una profesional del derecho con sólida formación académica 
               y amplia experiencia en diversas áreas legales. Su compromiso es brindar asesoría 
               personalizada, ética y eficiente, adaptada a las necesidades de cada cliente.
             </p>
 
             <p className="text-lg text-foreground/80 mb-8 font-inter leading-relaxed">
-              Con una visión integral del derecho, la Dra. López se especializa en defender 
+              Con una visión integral del derecho, la Abogada López Gonzáles se especializa en defender 
               los derechos de sus clientes con profesionalismo y dedicación, manteniendo siempre 
               una comunicación cercana y transparente durante todo el proceso legal.
             </p>

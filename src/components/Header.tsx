@@ -21,7 +21,7 @@ const Header = () => {
           >
             <Scale className="w-8 h-8 text-accent" />
             <div>
-              <h1 className="font-playfair font-bold text-xl text-primary">Jessica López</h1>
+              <h1 className="font-playfair font-bold text-xl text-primary">Jessica Melisa López Gonzáles</h1>
               <p className="text-xs text-muted-foreground">Estudio Jurídico</p>
             </div>
           </div>

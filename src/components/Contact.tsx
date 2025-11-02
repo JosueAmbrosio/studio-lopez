@@ -25,8 +25,8 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Dirección",
-      value: "Santa Anita, Lima, Perú",
-      link: 'https://maps.app.goo.gl/WLkeSRNHinEX7D5n8',
+      value: "Av Ruiseñores 977, segundo piso, Santa Anita",
+      link: 'https://maps.app.goo.gl/Vu21jiUs9ZT46VyWA',
     },
     {
       icon: Clock,
@@ -37,8 +37,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "contacto@estudiojlopez.com",
-      link: "mailto:contacto@estudiojlopez.com",
+      value: "estudiojuridicolopezgonzales@gmail.com",
+      link: "mailto:estudiojuridicolopezgonzales@gmail.com",
     },
   ];
 
@@ -56,7 +56,7 @@ const Contact = () => {
     }
 
     // Create WhatsApp message
-    const message = `Hola, soy ${formData.name}. ${formData.message}`;
+    const message = `Hola Abogada Jessica López, soy ${formData.name}. ${formData.message}`;
     const whatsappUrl = `https://wa.me/51954284218?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
 
@@ -158,7 +158,7 @@ const Contact = () => {
                       type="text"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      placeholder="Juan Ignacio"
+                      placeholder="Escribir..."
                       className="font-inter"
                       required
                     />
@@ -172,7 +172,7 @@ const Contact = () => {
                       type="email"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      placeholder="juan@gmail.com"
+                      placeholder="Escribir..."
                       className="font-inter"
                       required
                     />
@@ -186,7 +186,7 @@ const Contact = () => {
                       type="tel"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="987 654 321"
+                      placeholder="Escribir..."
                       className="font-inter"
                     />
                   </div>

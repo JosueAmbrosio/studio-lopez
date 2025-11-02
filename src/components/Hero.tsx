@@ -33,7 +33,7 @@ const Hero = () => {
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 font-inter font-light leading-relaxed">
             Defensa legal integral con trato personalizado y profesional. 
-            Especialistas en Derecho Penal, Laboral, Familiar y de Contratos.
+            Especialistas en Derecho Penal, Laboral, Familiar y Civil.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">

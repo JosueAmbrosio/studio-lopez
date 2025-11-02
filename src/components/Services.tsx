@@ -11,7 +11,7 @@ const Services = () => {
       features: [
         "Defensa en investigaciones fiscales",
         "Representación en juicios penales",
-        "Recursos de apelación",
+        "Diligencia en fiscalía, juzgados",
         "Libertad bajo fianza",
       ],
     },
@@ -21,7 +21,7 @@ const Services = () => {
       description:
         "Asesoría y representación en conflictos laborales. Defensa de los derechos del trabajador, liquidaciones, despidos arbitrarios, beneficios sociales y demandas laborales.",
       features: [
-        "Reclamos laborales",
+        "Accidentes de trabajo",
         "Liquidación de beneficios",
         "Despidos injustificados",
         "Negociación colectiva",

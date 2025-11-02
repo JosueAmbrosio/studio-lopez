@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jessica-abogada.netlify.app/sitemap.xml
